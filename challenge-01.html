@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flex Box Challenge 1</title>
+  <style>
+  /* Your styles here */
+
+  body, html {
+    /* Make document take up the height of the page */
+    /* Set the height to 100% */
+    height: 100%;
+  }
+
+  body {
+    /* display flex */
+    font-family: 'Lucida Sans';
+    display: flex;
+    /* Set the direction to column */
+    flex-direction: column;
+    /* arrange the children in the center on the main axis */
+    /* justify-content center */
+    justify-content: center;
+    /* Arrange elements on the cross axis */
+    /* align-items center */
+    align-items: center;
+  }
+
+  .box {
+    /* Make font big font-size 2em */
+    font-size: 2em;
+    /* width 50px */
+    width: 160px;
+    /* height 50px */
+
+    /* background color brown */
+    background-color: brown;
+    /* color white */
+    color: white;
+    /* padding 2em */
+    padding: 20px;
+    /* margin 1px */
+    margin: 1em;
+    /* Put the content of each box in the center */
+    /* display flex */
+    display: flex;
+    flex-direction: row;
+    /* justify content center */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align items center */
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .small-box {
+    height: 40px;
+    width: 40px;
+    background-color: lime;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="small-box">A</div>
+    <div class="small-box">B</div>
+    <div class="small-box">C</div>
+  </div>
+  <div class="box">
+    <div class="small-box">D</div>
+    <div class="small-box">E</div>
+    <div class="small-box">F</div>
+    <div class="small-box">G</div>
+  </div>
+  <div class="box">
+    <div class="small-box">H</div>
+    <div class="small-box">I</div>
+    <div class="small-box">J</div>
+    <div class="small-box">K</div>
+    <div class="small-box">L</div>
+  </div>
+</body>
+</html>
